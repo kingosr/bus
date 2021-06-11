@@ -1,0 +1,189 @@
+/*start of fixed piece*/
+.logo{
+	width:20%;
+	margin-left:38px;
+}
+.title {
+	background-color:#2a5a68;
+	margin-top:-10px;
+	width:101.3%;
+	margin-left:-0.7%;
+}
+
+.heading {
+	margin-top:-30px;
+	margin-left:50px;
+	color:white;
+	letter-spacing:2px;
+}
+
+.button {
+	background-color: #2a5a68; /* Green */
+	border: 2px solid white;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 140px;
+	display: block;
+	border-radius: 16px;
+	margin-top:10px;
+	margin-left:10%;
+}
+/*button container*/
+.btn-group {
+	background-image: url("images/ndege2.jpg");
+	margin-left:-0.6%;
+	margin-top:-1.66%;
+	width:18%;
+	border-radius:5px;
+		
+}
+
+.btn-group .button:hover {
+  background-color: #707374;
+}
+
+
+body {
+    background-image: url("images/paper.jpg");
+    background-repeat: repeat;
+}
+
+.container {
+  position: relative;
+  width:18%;
+  height:100px;
+  padding-top: 10px;
+  margin-left:-0.6%;
+  margin-top:0%;
+  border-radius:8px;
+  background-color:#2a5a68;
+  padding-bottom:10%;
+  
+  
+  
+  }
+  
+  .overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 83%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+    
+}
+
+.container:hover .overlay {
+  opacity: 2;
+}
+
+/*end of fixed piece............fixed part end dont modify any of the codes above*/
+
+
+
+/*search detail css*/
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-left: 300px;
+  box-sizing: border-box;
+  margin-top:-40%;
+  margin-left:5%;
+}
+/*Form inline */
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  color:white;
+  }
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius:6px;
+}
+
+/*Form inline input */
+
+.form-inline select{
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius:6px;
+}
+
+    .form-inline button {
+        padding: 10px 20px;
+        background-color: #2a5a68;
+        border: 1px solid #ddd;
+        color: white;
+        cursor: pointer;
+		border-radius:10px;
+    }
+    /*Form inline button*/
+
+    .form-inline button:hover {
+        background-color: #707374;
+    }
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+/*Form inline */
+}
+
+#main{
+    
+    height: 560px;
+    width: 75%;
+    margin-top: 10px;
+    float: left;
+    margin-top: -42%;
+    margin-left: 20%;
+    
+    background-position: center;
+    background-size: cover;
+    animation: slide 20s infinite;
+
+
+}
+@keyframes slide {
+    0%{
+        background-image: url(image/0.jpg);
+    }
+    25%{
+        background-image: url(image/2.jpg);
+    }
+    50%{
+        background-image: url(image/3.jpg);
+    }
+    75%{
+        background-image: url(image/4.jpg);
+    }
+    100%{
+        background-image: url(image/1.jpg);
+    }
+    
+}
